@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'App works!And it is awesome!';
   number = 'Third';
+
 }
