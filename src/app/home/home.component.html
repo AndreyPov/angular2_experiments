@@ -4,3 +4,7 @@
 <h1>{{hometitle}}</h1>
 <ng-content>
 </ng-content>
+<input [value]="myString"/>
+<input required="{{myBoolean}}"/>
+<input [(ngModel)]="typedInput">
+<button (click)="alertMe((typedInput*2))">Click me</button>

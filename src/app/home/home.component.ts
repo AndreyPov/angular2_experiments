@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   hometitle = "Welcome to the home page";
+  myString = "Blablabla...is here";
+  myBoolean = "false";
+  typedInput = 'someInfo';
+  alertMe(binding){
+    alert(binding*2);
+  }
   constructor() { }
 
   ngOnInit() {
