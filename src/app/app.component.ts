@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'App works!And it is awesome!';
   number = 'Third';
+  yell(e){
+    alert("I am yelling");
+    console.log(e);
+  }
 
 }
